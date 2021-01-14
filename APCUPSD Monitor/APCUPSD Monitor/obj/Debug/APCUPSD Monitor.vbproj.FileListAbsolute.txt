@@ -1,0 +1,23 @@
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\bin\Debug\APCUPSD Monitor.exe
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\bin\Debug\APCUPSD Monitor.pdb
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\bin\Debug\APCUPSD Monitor.xml
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\obj\Debug\APCUPSD_Monitor.Form1.resources
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\obj\Debug\APCUPSD_Monitor.Resources.resources
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.vbproj.GenerateResource.Cache
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.exe
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.xml
+C:\Users\Dominick\AppData\Local\Temporary Projects\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.pdb
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.exe
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.xml
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.pdb
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\bin\Debug\APCUPSD Monitor.exe
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\bin\Debug\APCUPSD Monitor.pdb
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\bin\Debug\APCUPSD Monitor.xml
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD_Monitor.Form1.resources
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD_Monitor.Resources.resources
+C:\Users\Dominick\Downloads\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.vbproj.GenerateResource.Cache
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.exe
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.xml
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\APCUPSD Monitor\APCUPSD Monitor\obj\Debug\APCUPSD Monitor.pdb
