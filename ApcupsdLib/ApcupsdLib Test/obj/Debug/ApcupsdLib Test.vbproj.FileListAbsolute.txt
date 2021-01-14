@@ -1,0 +1,13 @@
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib Test.exe
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib Test.pdb
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib Test.xml
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ApcupsdLib_Test.Form1.resources
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ApcupsdLib_Test.Resources.resources
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ApcupsdLib Test.vbproj.GenerateResource.Cache
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ApcupsdLib Test.exe
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ApcupsdLib Test.xml
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ApcupsdLib Test.pdb
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib.dll
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib.pdb
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib.xml
