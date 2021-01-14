@@ -6,14 +6,15 @@ An interrupted power supply (UPS) is a system that comprises of a battery, DC to
 
 APC by Schneider Electric is a renown company that provides an extensive line of UPS products. Some UPS devices do not have an LCD display and that means certain values and functions would not be possible unless you install additional software. APCUPSD, short for American Power Conversion uninterruptible power supply daemon, is a free utility that runs on Linux, UNIX, macOS and Windows. It allows the computer to interact with APC UPS devices. APCUPSD also works with some other OEM APC power supplies. APCUPSD has a TCP server with an NIS protocol that allows other computers on the same network to retrieve information about the UPS device.
 
-This repository provides a VB.NET implementation to demonstrate the retrieval of system information from APCUPSD. It can provide a basis for developers who want to use APCUPSD in a computer lab with multiple computers or for use-cases where multiple UPS devices need to be monitored.
+This repository provides examples and a library written in VB.NET to demonstrate the retrieval of system information from APCUPSD. It can provide a basis for developers who want to use APCUPSD in a computer lab with multiple computers or for use-cases where multiple UPS devices need to be monitored.
 
 ![APCUPSD App](https://raw.githubusercontent.com/dominicklee/APCUPSD-in-VB.NET/main/screenshot.png)
 
 ## Installation ##
 1. [Download APCUPSD](http://www.apcupsd.org) for your OS. This is the computer in which you will be plugging in your UPS system. 
 2. Install the APCUPSD driver and edit the `apcupsd.conf` file accordingly. Run the APCUPSD service.
-3. Download or fork this repository. Open the the project files in Visual Studio 2008 or later. The code is in `Form1.vb`.
+3. Download or fork this repository. Open the the project files in Visual Studio 2008 or later. <br />
+If you want a bare-bones standalone version, the code is in `Form1.vb`. The `ApcupsdLib` project will contain the DLL and an example application of how to use it.
 4. Run the program and type in the IP or hostname of your computer to fetch the info.
 
 ## References ##
