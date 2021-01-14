@@ -1,7 +1,7 @@
 ﻿Imports ApcupsdLib
 
 Public Class Form1
-    Dim client As New ApcupsdDevice
+    Public client As New ApcupsdDevice
 
     Private Sub TextBox1_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles TextBox1.GotFocus
         If TextBox1.Text = "IP or Hostname" Then
@@ -45,5 +45,9 @@ Public Class Form1
         Dim myProperty As String = InputBox("Enter APC property you want to retrieve", "Enter Property Name", "BCHARGE")
         Dim val As String = client.GetApcValue(myProperty)
         MsgBox(val)
+    End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        CustomMsg.Show()
     End Sub
 End Class

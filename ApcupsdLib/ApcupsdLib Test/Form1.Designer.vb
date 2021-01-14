@@ -29,6 +29,7 @@ Partial Class Form1
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox
         Me.Button1 = New System.Windows.Forms.Button
         Me.Button3 = New System.Windows.Forms.Button
+        Me.Button4 = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'Button2
@@ -98,12 +99,24 @@ Partial Class Form1
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Cyan
-        Me.Button3.Location = New System.Drawing.Point(244, 571)
+        Me.Button3.Location = New System.Drawing.Point(135, 571)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(105, 28)
         Me.Button3.TabIndex = 12
         Me.Button3.Text = "Get Value"
         Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Cyan
+        Me.Button4.Location = New System.Drawing.Point(246, 571)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(105, 28)
+        Me.Button4.TabIndex = 13
+        Me.Button4.Text = "Custom Msg"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -111,6 +124,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(59, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(474, 611)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.RichTextBox2)
@@ -133,5 +147,6 @@ Partial Class Form1
     Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button4 As System.Windows.Forms.Button
 
 End Class

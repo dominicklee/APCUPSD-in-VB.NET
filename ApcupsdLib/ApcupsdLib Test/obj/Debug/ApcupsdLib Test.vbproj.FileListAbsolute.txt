@@ -11,3 +11,4 @@ C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\
 C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib.dll
 C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib.pdb
 C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\bin\Debug\ApcupsdLib.xml
+C:\Users\Dominick\Documents\GitHub\APCUPSD-in-VB.NET\ApcupsdLib\ApcupsdLib Test\obj\Debug\ApcupsdLib_Test.CustomMsg.resources

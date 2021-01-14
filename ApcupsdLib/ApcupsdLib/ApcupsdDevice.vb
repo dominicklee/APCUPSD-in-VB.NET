@@ -1,6 +1,7 @@
 ﻿Imports System.Net.Sockets
 Imports System.Threading
 Imports System.Text
+Imports System.Text.RegularExpressions
 
 Public Class ApcupsdDevice
     Private Shared _hostname As String
@@ -106,4 +107,35 @@ Public Class ApcupsdDevice
             End If
         End If
     End Function
+
+    Private Shared Function replacePlaceholders(ByVal text As String, ByVal dict As Dictionary(Of String, String)) As String
+        'This function replaces all the {placeholders} with dictionary values that match key name
+        Dim matches As MatchCollection = Regex.Matches(text, "{([^}]+)}")  'regex statement
+        Dim finalSentence As String = text
+
+        For Each match As Match In matches  'Loop over matches in given text
+            For Each capture As Capture In match.Captures 'Loop over captures
+                Dim placeholder As String = capture.Value   'value with the curly braces
+                Dim keyInSentence As String = capture.Value.Substring(1, capture.Value.Length - 2)  'substring to eliminate curly brace
+                Dim replacementText As String = ""
+                If dict.TryGetValue(keyInSentence, replacementText) Then  'try to find a key with this placeholder name in dict
+                    finalSentence = finalSentence.Replace(placeholder, replacementText)
+                End If
+            Next
+        Next
+        Return finalSentence
+    End Function
+
+    'Custom function just for Apcupsd
+    Public Function processCustomMessage(ByVal text As String) As String
+        If _apcStatus.Count = 0 Then
+            Return "Must run GetApcStatus to get info first"
+        Else
+            If _apcStatus.ContainsKey("USERNAME") = False Then
+                _apcStatus.Add("USERNAME", Environment.UserName)
+            End If
+            Return replacePlaceholders(text, _apcStatus)
+        End If
+    End Function
+
 End Class
